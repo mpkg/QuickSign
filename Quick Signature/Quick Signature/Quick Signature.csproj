@@ -52,11 +52,10 @@
     <Compile Include="QuickPicData.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTML\Signature_Drive.htm" />
+    <Content Include="HTML\QuickSign.htm" />
+    <Content Include="JS\QuickSign.js" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="JS\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
